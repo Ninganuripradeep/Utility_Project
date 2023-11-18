@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Converter</title>
+    <link rel="stylesheet" href="rgb.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="outer">
+        <div id="rgbdiv">
+            <p>RED: <input type="number" placeholder="Red" id="red">
+            </p>
+            <p>Green: <input type="number" placeholder="Green" id="green">
+            </p>
+            <p>Blue: <input type="number" placeholder="Blue" id="blue">
+            </p>
+     
+        <div id="rgbbutton">
+            <button onclick="rgbtohex()">rgbtohex</button>
+        </div>
+ 
+            <p>HexCode: <input type="text" placeholder="HexCode" id="hex"></p>
+  
+        <div id="hexbutton">
+            <button onclick="hextorgb()">hextorgb</button>
+        </div>
+    </div>
+</div>
+    <script src="rgb.js"></script>
+</body>
+
+</html>

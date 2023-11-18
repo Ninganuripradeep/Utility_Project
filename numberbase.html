@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Base</title>
+    <link rel="stylesheet" href="numberbase.css">
+</head>
+
+<body>
+    
+    <div id="numberdiv">
+        <div id="input_taker">
+            <p>From:
+                <select id="inputformat">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="'hexadeci">HexaDecimal</option>
+
+                </select>
+            </p>
+            <div id="ipdiv">Input:
+                <input type="text" placeholder="Input" id="input">
+
+            </div>
+        </div>
+        <div id="output_taker">
+            <p>To:
+                <select id="outputformat">
+                    <option value="decimal">Decimal</option>
+                    <option value="binary">Binary</option>
+                    <option value="octal">Octal</option>
+                    <option value="hexadeci">HexaDecimal</option>
+                </select>
+            </p>
+            <p>Output:
+                <input type="text" placeholder="Output" id="output">
+            </p>
+        </div>
+
+    </div>
+    <script src="numberbase.js"></script>
+</body>
+
+</html>

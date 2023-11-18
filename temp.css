@@ -1,0 +1,36 @@
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0; 
+    background-color: #c4c1e0;
+}
+#tempdiv{
+    background-color:#7c73e6;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    padding:20px; 
+    border-radius: 12px;
+
+}
+#input_taker,#output_taker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+select,input{
+    margin:5px; 
+    padding:8px;
+    border:1px;
+    border-radius:4px;
+}
+@media screen and (max-width:500px){
+    #input_taker,#output_taker{
+        flex-shrink: 2;
+    }
+   
+}

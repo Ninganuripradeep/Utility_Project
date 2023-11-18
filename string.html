@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Utility</title>
+    <link rel="stylesheet" href="string.css">
+</head>
+
+<body>
+
+    <div id="outer">
+        <div id="main">
+        <h1>String Utility</h1>
+        <textarea id="inputtext"  rows="3" oninput="updateCounts()"></textarea> <br>
+        <button onclick="makeCapital()">Make Capital</button>
+        <button onclick="makeSmall()">Make Small</button>
+        <button onclick="mirrorText()">Mirror Words</button>
+        <br>
+        <textarea id="outputtext" rows="3" readonly></textarea>
+        <br>
+        <div id="inner">
+        <p id="wordcount">Word Count: 0</p>
+        <p id="charcount">Character Count: 0</p>
+        
+</div>
+</div>
+    </div>
+
+    <script src="string.js"></script>
+
+</body>
+
+</html>

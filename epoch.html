@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoch Timer</title>
+    <link rel="stylesheet" href="epoch.css">
+</head>
+
+<body>
+    <h1>Epoch Time Converter</h1>
+    <div id="outer">
+       
+        <label for="timestamp">Enter Timestamp</label>
+        <input type="number" id="timestamp" placeholder="enter the timestamp">
+        <button onclick="convertToHumanReadable()">Convert Human Readable</button>
+        <p id="humanReadableOutput"></p>
+
+        <label for="humanReadableTime">Human Readable Time</label>
+        <input type="text" id="humanReadableTime" placeholder="YYYY-MM-DDTHH:mm:ssZ">
+        <button onclick="convertToEpoch()">Convert To Epoch</button>
+        <label for="epochOutput">Epoch Time</label>
+        <input type="text" id="epochOutput" readonly>
+    </div>
+
+    <script src="epoch.js"></script>
+</body>
+
+</html>
